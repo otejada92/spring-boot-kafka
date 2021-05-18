@@ -13,9 +13,9 @@ public class KafkaTopicConfiguration {
     private final short partitions;
     private final String topicName;
 
-    public KafkaTopicConfiguration(@Value("${kafka.replication.factor}") Integer replicationFactor,
-                                   @Value("${kafka.partitions}") short partitions,
-                                   @Value("${kafka.topic.name}") String topicName) {
+    public KafkaTopicConfiguration(final @Value("${kafka.replication.factor}") Integer replicationFactor,
+                                   final @Value("${kafka.partitions}") short partitions,
+                                   final @Value("${kafka.topic.users}") String topicName) {
 
         this.replicationFactor = replicationFactor;
         this.partitions = partitions;
