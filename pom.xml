@@ -27,4 +27,5 @@
         <module>consumer</module>
         <module>producer</module>
     </modules>
+
 </project>

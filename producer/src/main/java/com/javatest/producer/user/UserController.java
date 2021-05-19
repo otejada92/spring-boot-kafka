@@ -14,7 +14,7 @@ public class UserController  {
 
     private final PublisherService<User> publisherService;
 
-    public UserController(final @Qualifier("user-publisher") PublisherService<User> publisherService) {
+    public UserController(@Qualifier("user-publisher") final PublisherService<User> publisherService) {
         this.publisherService = publisherService;
     }
 

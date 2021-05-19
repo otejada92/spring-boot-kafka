@@ -32,8 +32,8 @@ public class User implements Serializable {
         this.email = email;
     }
 
-//    @Override
-//    public String toString() {
-//        return String.format("{'username' : '%s', 'email' : '%s'}", name, email);
-//    }
+    @Override
+    public String toString() {
+        return String.format("{'username' : '%s', 'email' : '%s'}", name, email);
+    }
 }
