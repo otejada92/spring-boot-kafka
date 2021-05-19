@@ -30,8 +30,8 @@ Kafka 2.8
 
 ## How to run
 
-* [Producer]() - Kafka message producer
-* [Consumer]() -  Kafka message consumer
+* [Producer](https://github.com/otejada92/spring-boot-kafka/tree/master/producer) - Kafka message producer
+* [Consumer](https://github.com/otejada92/spring-boot-kafka/tree/master/consumer) -  Kafka message consumer
 
 ## More about Kafka (Windows)
 
